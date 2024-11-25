@@ -11,7 +11,7 @@
 
 /*default styles for whole page*/
 body {
-    color: darkgreen;
+    color: green;
     border-color: black;
     background-color: whitesmoke;
 }
@@ -163,3 +163,16 @@ a:visited {
                         background-color: #ffffffb4;
                         padding:0 0.5rem;
                         } 
+/*css grids*/
+.grid {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+/* Css grids column widths */
+.grid-col-third {
+    flex-basis: 33.33%;
+}
+.grid-col-twothirds {
+    flex-basis: 66.66%;
+}
